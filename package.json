@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
   "devDependencies": {
     "cypress": "^9.2.0"
+  },
+  "dependencies": {
+    "@applitools/eyes-cypress": "^3.23.4"
   }
 }
